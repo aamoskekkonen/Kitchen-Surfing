@@ -23,6 +23,7 @@
 		7ECF1B6E29C7C071009F6781 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECF1B6D29C7C071009F6781 /* ChatView.swift */; };
 		7ECF1B7129C7C250009F6781 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECF1B7029C7C250009F6781 /* ProfileView.swift */; };
 		7ECF1B7329C7C28B009F6781 /* ProfileBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECF1B7229C7C28B009F6781 /* ProfileBar.swift */; };
+		7ECF1B7529C7C757009F6781 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECF1B7429C7C757009F6781 /* MainTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		7ECF1B6D29C7C071009F6781 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		7ECF1B7029C7C250009F6781 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		7ECF1B7229C7C28B009F6781 /* ProfileBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileBar.swift; sourceTree = "<group>"; };
+		7ECF1B7429C7C757009F6781 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				7E1FF67C29C7B53400BCCC23 /* ContentView.swift */,
+				7ECF1B7429C7C757009F6781 /* MainTabView.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 				7E1FF67B29C7B53400BCCC23 /* Kitchen_SurfingApp.swift in Sources */,
 				7E1FF69829C7BBB100BCCC23 /* Constants.swift in Sources */,
 				7ECF1B7329C7C28B009F6781 /* ProfileBar.swift in Sources */,
+				7ECF1B7529C7C757009F6781 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,8 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var selectedIndex = 0
+    
     var body: some View {
-        HomeView()
+        MainTabView(selectedIndex: $selectedIndex)
+
     }
 }
 
