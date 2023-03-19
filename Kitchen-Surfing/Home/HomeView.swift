@@ -32,7 +32,7 @@ struct HomeView: View {
                 })
                 Button(action: {}, label: {
                     Text("VEGAN")
-                        .frame(width: 70, height: 20)
+                        .frame(width: 92, height: 20)
                         .tracking(4)
                         .background(Color.red1)
                         .clipShape(Capsule())
