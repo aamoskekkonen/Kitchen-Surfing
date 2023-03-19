@@ -11,6 +11,7 @@
 		7E1FF67D29C7B53400BCCC23 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1FF67C29C7B53400BCCC23 /* ContentView.swift */; };
 		7E1FF67F29C7B53500BCCC23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E1FF67E29C7B53500BCCC23 /* Assets.xcassets */; };
 		7E1FF68229C7B53500BCCC23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E1FF68129C7B53500BCCC23 /* Preview Assets.xcassets */; };
+		7E1FF68A29C7B8D300BCCC23 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1FF68929C7B8D300BCCC23 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		7E1FF67C29C7B53400BCCC23 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7E1FF67E29C7B53500BCCC23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E1FF68129C7B53500BCCC23 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7E1FF68929C7B8D300BCCC23 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		7E1FF67929C7B53400BCCC23 /* Kitchen-Surfing */ = {
 			isa = PBXGroup;
 			children = (
+				7E1FF68829C7B8B900BCCC23 /* Util */,
 				7E1FF67A29C7B53400BCCC23 /* Kitchen_SurfingApp.swift */,
 				7E1FF67C29C7B53400BCCC23 /* ContentView.swift */,
 				7E1FF67E29C7B53500BCCC23 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				7E1FF68129C7B53500BCCC23 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7E1FF68829C7B8B900BCCC23 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				7E1FF68929C7B8D300BCCC23 /* Extensions.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E1FF67D29C7B53400BCCC23 /* ContentView.swift in Sources */,
+				7E1FF68A29C7B8D300BCCC23 /* Extensions.swift in Sources */,
 				7E1FF67B29C7B53400BCCC23 /* Kitchen_SurfingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
