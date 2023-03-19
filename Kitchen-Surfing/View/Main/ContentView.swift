@@ -8,11 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var viewModel = NavigationViewModel()
     @State var selectedIndex = 0
     
     var body: some View {
         MainTabView(selectedIndex: $selectedIndex)
-
+            .navigationBarTitle(viewModel.tabTitle(forIndex: selectedIndex))
+            .navigationBarTitleDisplayMode(.inline)
     }
 }
 
