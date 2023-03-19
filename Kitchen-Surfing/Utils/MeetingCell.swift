@@ -13,7 +13,7 @@ struct MeetingCell: View {
             HStack {
                 VStack(spacing: 4.5) {
                     HStack {
-                        ProfilePicture(imageSource: "pedro", size: 35)
+                        ProfilePicture(imageSource: "pedro", size: 34)
                         SymboledLabel(symbol: Image(systemName: "star.fill"), label: "4.4")
                             .foregroundColor(.black)
                         Spacer()

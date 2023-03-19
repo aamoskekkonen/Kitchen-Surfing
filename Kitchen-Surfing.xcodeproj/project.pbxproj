@@ -20,6 +20,7 @@
 		7E1FF69E29C7BC9100BCCC23 /* ProfilePicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1FF69D29C7BC9100BCCC23 /* ProfilePicture.swift */; };
 		7E1FF6A029C7BCCC00BCCC23 /* MeetingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1FF69F29C7BCCC00BCCC23 /* MeetingList.swift */; };
 		7ECF1B6B29C7BF0B009F6781 /* MeetingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECF1B6A29C7BF0B009F6781 /* MeetingsView.swift */; };
+		7ECF1B6E29C7C071009F6781 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECF1B6D29C7C071009F6781 /* ChatView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		7E1FF69D29C7BC9100BCCC23 /* ProfilePicture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePicture.swift; sourceTree = "<group>"; };
 		7E1FF69F29C7BCCC00BCCC23 /* MeetingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingList.swift; sourceTree = "<group>"; };
 		7ECF1B6A29C7BF0B009F6781 /* MeetingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingsView.swift; sourceTree = "<group>"; };
+		7ECF1B6D29C7C071009F6781 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 		7E1FF67929C7B53400BCCC23 /* Kitchen-Surfing */ = {
 			isa = PBXGroup;
 			children = (
+				7ECF1B6C29C7C01A009F6781 /* Chat */,
 				7ECF1B6929C7BF00009F6781 /* Meetings */,
 				7E1FF69529C7BB7D00BCCC23 /* Main */,
 				7E1FF69429C7BB6200BCCC23 /* Utils */,
@@ -124,6 +127,14 @@
 				7ECF1B6A29C7BF0B009F6781 /* MeetingsView.swift */,
 			);
 			path = Meetings;
+			sourceTree = "<group>";
+		};
+		7ECF1B6C29C7C01A009F6781 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				7ECF1B6D29C7C071009F6781 /* ChatView.swift */,
+			);
+			path = Chat;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +211,7 @@
 				7E1FF67D29C7B53400BCCC23 /* ContentView.swift in Sources */,
 				7ECF1B6B29C7BF0B009F6781 /* MeetingsView.swift in Sources */,
 				7E1FF68E29C7B9F000BCCC23 /* SearchBar.swift in Sources */,
+				7ECF1B6E29C7C071009F6781 /* ChatView.swift in Sources */,
 				7E1FF6A029C7BCCC00BCCC23 /* MeetingList.swift in Sources */,
 				7E1FF68A29C7B8D300BCCC23 /* Extensions.swift in Sources */,
 				7E1FF69E29C7BC9100BCCC23 /* ProfilePicture.swift in Sources */,
