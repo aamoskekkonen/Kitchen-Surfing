@@ -11,10 +11,11 @@ struct MainTabView: View {
     @Binding var selectedIndex: Int
     
     var body: some View {
-        TabView {
+        TabView(selection: $selectedIndex) {
             HomeView()
                 .onTapGesture {
                     selectedIndex = 0
+                    print("HOMEE")
                 }
                 .tabItem {
                     Image(systemName: "house")
@@ -23,6 +24,7 @@ struct MainTabView: View {
             MeetingsView()
                 .onTapGesture {
                     selectedIndex = 1
+                    print("MEETTII")
                 }
                 .tabItem {
                     Image(systemName: "list.bullet.clipboard")

@@ -18,6 +18,7 @@ struct ContentView: View {
                 .navigationBarTitleDisplayMode(.inline)
         }
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
