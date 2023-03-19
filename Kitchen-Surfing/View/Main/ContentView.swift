@@ -12,9 +12,11 @@ struct ContentView: View {
     @State var selectedIndex = 0
     
     var body: some View {
-        MainTabView(selectedIndex: $selectedIndex)
-            .navigationBarTitle(viewModel.tabTitle(forIndex: selectedIndex))
-            .navigationBarTitleDisplayMode(.inline)
+        NavigationView {
+            MainTabView(selectedIndex: $selectedIndex)
+                .navigationBarTitle(viewModel.tabTitle(forIndex: selectedIndex))
+                .navigationBarTitleDisplayMode(.inline)
+        }
     }
 }
 
