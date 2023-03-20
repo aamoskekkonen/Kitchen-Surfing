@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7E1FF67B29C7B53400BCCC23 /* Kitchen_SurfingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1FF67A29C7B53400BCCC23 /* Kitchen_SurfingApp.swift */; };
+		7E1FF67B29C7B53400BCCC23 /* KitchenSurfingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1FF67A29C7B53400BCCC23 /* KitchenSurfingApp.swift */; };
 		7E1FF67D29C7B53400BCCC23 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1FF67C29C7B53400BCCC23 /* ContentView.swift */; };
 		7E1FF67F29C7B53500BCCC23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E1FF67E29C7B53500BCCC23 /* Assets.xcassets */; };
 		7E1FF68229C7B53500BCCC23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E1FF68129C7B53500BCCC23 /* Preview Assets.xcassets */; };
@@ -28,8 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7E1FF67729C7B53400BCCC23 /* Kitchen-Surfing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kitchen-Surfing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E1FF67A29C7B53400BCCC23 /* Kitchen_SurfingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kitchen_SurfingApp.swift; sourceTree = "<group>"; };
+		7E1FF67729C7B53400BCCC23 /* KitchenSurfing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KitchenSurfing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E1FF67A29C7B53400BCCC23 /* KitchenSurfingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenSurfingApp.swift; sourceTree = "<group>"; };
 		7E1FF67C29C7B53400BCCC23 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7E1FF67E29C7B53500BCCC23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E1FF68129C7B53500BCCC23 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -41,6 +41,7 @@
 		7E1FF69B29C7BC6800BCCC23 /* SymboledLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymboledLabel.swift; sourceTree = "<group>"; };
 		7E1FF69D29C7BC9100BCCC23 /* ProfilePicture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePicture.swift; sourceTree = "<group>"; };
 		7E1FF69F29C7BCCC00BCCC23 /* MeetingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingList.swift; sourceTree = "<group>"; };
+		7E59D8D129C7E1C000DA66BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		7ECD4CD929C7CAF4001A24A1 /* NavigationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewModel.swift; sourceTree = "<group>"; };
 		7ECF1B6A29C7BF0B009F6781 /* MeetingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingsView.swift; sourceTree = "<group>"; };
 		7ECF1B6D29C7C071009F6781 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
@@ -63,7 +64,8 @@
 		7E1FF66E29C7B53400BCCC23 = {
 			isa = PBXGroup;
 			children = (
-				7E1FF67929C7B53400BCCC23 /* Kitchen-Surfing */,
+				7E59D8D129C7E1C000DA66BB /* Info.plist */,
+				7E1FF67929C7B53400BCCC23 /* KitchenSurfing */,
 				7E1FF67829C7B53400BCCC23 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,23 +73,23 @@
 		7E1FF67829C7B53400BCCC23 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7E1FF67729C7B53400BCCC23 /* Kitchen-Surfing.app */,
+				7E1FF67729C7B53400BCCC23 /* KitchenSurfing.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7E1FF67929C7B53400BCCC23 /* Kitchen-Surfing */ = {
+		7E1FF67929C7B53400BCCC23 /* KitchenSurfing */ = {
 			isa = PBXGroup;
 			children = (
 				7ECF1B7629C7C9E3009F6781 /* View */,
 				7ECF1B7729C7C9EB009F6781 /* Model */,
 				7ECF1B7929C7CA04009F6781 /* ViewModels */,
 				7E1FF69429C7BB6200BCCC23 /* Utils */,
-				7E1FF67A29C7B53400BCCC23 /* Kitchen_SurfingApp.swift */,
+				7E1FF67A29C7B53400BCCC23 /* KitchenSurfingApp.swift */,
 				7E1FF67E29C7B53500BCCC23 /* Assets.xcassets */,
 				7E1FF68029C7B53500BCCC23 /* Preview Content */,
 			);
-			path = "Kitchen-Surfing";
+			path = KitchenSurfing;
 			sourceTree = "<group>";
 		};
 		7E1FF68029C7B53500BCCC23 /* Preview Content */ = {
@@ -184,9 +186,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7E1FF67629C7B53400BCCC23 /* Kitchen-Surfing */ = {
+		7E1FF67629C7B53400BCCC23 /* KitchenSurfing */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7E1FF68529C7B53500BCCC23 /* Build configuration list for PBXNativeTarget "Kitchen-Surfing" */;
+			buildConfigurationList = 7E1FF68529C7B53500BCCC23 /* Build configuration list for PBXNativeTarget "KitchenSurfing" */;
 			buildPhases = (
 				7E1FF67329C7B53400BCCC23 /* Sources */,
 				7E1FF67429C7B53400BCCC23 /* Frameworks */,
@@ -196,9 +198,9 @@
 			);
 			dependencies = (
 			);
-			name = "Kitchen-Surfing";
+			name = KitchenSurfing;
 			productName = "Kitchen-Surfing";
-			productReference = 7E1FF67729C7B53400BCCC23 /* Kitchen-Surfing.app */;
+			productReference = 7E1FF67729C7B53400BCCC23 /* KitchenSurfing.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -216,7 +218,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7E1FF67229C7B53400BCCC23 /* Build configuration list for PBXProject "Kitchen-Surfing" */;
+			buildConfigurationList = 7E1FF67229C7B53400BCCC23 /* Build configuration list for PBXProject "KitchenSurfing" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -229,7 +231,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7E1FF67629C7B53400BCCC23 /* Kitchen-Surfing */,
+				7E1FF67629C7B53400BCCC23 /* KitchenSurfing */,
 			);
 		};
 /* End PBXProject section */
@@ -263,7 +265,7 @@
 				7E1FF69E29C7BC9100BCCC23 /* ProfilePicture.swift in Sources */,
 				7E1FF69029C7BB0900BCCC23 /* HomeView.swift in Sources */,
 				7E1FF69C29C7BC6800BCCC23 /* SymboledLabel.swift in Sources */,
-				7E1FF67B29C7B53400BCCC23 /* Kitchen_SurfingApp.swift in Sources */,
+				7E1FF67B29C7B53400BCCC23 /* KitchenSurfingApp.swift in Sources */,
 				7E1FF69829C7BBB100BCCC23 /* Constants.swift in Sources */,
 				7ECF1B7329C7C28B009F6781 /* ProfileBar.swift in Sources */,
 				7ECF1B7529C7C757009F6781 /* MainTabView.swift in Sources */,
@@ -392,12 +394,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_USE_OPTIMIZATION_PROFILE = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Kitchen-Surfing/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"KitchenSurfing/Preview Content\"";
 				DEVELOPMENT_TEAM = HWRVV6T8B4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Kitchen Surfing";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -408,7 +413,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.aamoskekkonen.Kitchen-Surfing";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aamoskekkonen.KitchenSurfing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -421,12 +426,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_USE_OPTIMIZATION_PROFILE = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Kitchen-Surfing/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"KitchenSurfing/Preview Content\"";
 				DEVELOPMENT_TEAM = HWRVV6T8B4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Kitchen Surfing";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -437,7 +445,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.aamoskekkonen.Kitchen-Surfing";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aamoskekkonen.KitchenSurfing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -448,7 +456,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7E1FF67229C7B53400BCCC23 /* Build configuration list for PBXProject "Kitchen-Surfing" */ = {
+		7E1FF67229C7B53400BCCC23 /* Build configuration list for PBXProject "KitchenSurfing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7E1FF68329C7B53500BCCC23 /* Debug */,
@@ -457,7 +465,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7E1FF68529C7B53500BCCC23 /* Build configuration list for PBXNativeTarget "Kitchen-Surfing" */ = {
+		7E1FF68529C7B53500BCCC23 /* Build configuration list for PBXNativeTarget "KitchenSurfing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7E1FF68629C7B53500BCCC23 /* Debug */,
