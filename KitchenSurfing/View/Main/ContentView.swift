@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  Kitchen-Surfing
+//  KitchenSurfing
 //
 //  Created by Aamos Kekkonen on 19.3.2023.
 //

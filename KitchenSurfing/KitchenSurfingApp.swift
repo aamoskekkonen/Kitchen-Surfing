@@ -1,6 +1,6 @@
 //
-//  Kitchen_SurfingApp.swift
-//  Kitchen-Surfing
+//  KitchenSurfingApp.swift
+//  KitchenSurfing
 //
 //  Created by Aamos Kekkonen on 19.3.2023.
 //
